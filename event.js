@@ -1,8 +1,9 @@
-$(window).on('load', () => {
-    console.log('loadイベントが発生しました');
-  });
-  
-  $(window).on('scroll', () => {
-    console.log('scrollイベントが発生しました');
-  });
-  
+// HTMLの読み込みが完了したとき
+$(window).on('load', function() {
+  console.log('loadイベントが発生しました');
+});
+
+// スクロールしたとき
+$(window).on('scroll', function() {
+  console.log('scrollイベントが発生しました');
+});
